@@ -1,0 +1,8 @@
+<html>
+	<div style="position: relative;
+				width: 1440px;
+				height: 788px;
+
+				background: #242289;">
+	</div>
+</html>

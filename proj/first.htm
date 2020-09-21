@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html>
+	<!-- frame 1-->
+	<!--image slider-->
+	<head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
+	<style>
+	body{
+		font-family:Roboto;
+		}
+	</style>
+	</head>
+	<body>
+	<div style="position: relative; width: 1447px; height: 5331px;left: 18px;  top:-5px; background: #242289;">
+		<img src="groupdots.png" 
+			 style="position: absolute;
+					left: 45.76%;
+					right: 7.08%;
+					top: 11.89%;
+					bottom: 77.73%;"/>
+		<head>
+			<meta charset="utf-8" />  
+			 
+			<style type="text/css">  
+				body {  
+					margin: 0;  
+					background: #e6e6e6;  
+				}  
+				.showSlide {  
+					display: none  
+				}  
+					.showSlide img {  
+						width: 100%;  
+					}  
+				.slidercontainer {  
+					max-width: 1440px;
+					max-height:800px;			
+					position: relative;  
+					margin: auto;  
+				}  
+				.left, .right {  
+					cursor: pointer;  
+					position: absolute;  
+					top: 50%;  
+					width: auto;  
+					padding: 16px;  
+					margin-top: -22px;  
+					color: white;  
+					font-weight: bold;  
+					font-size: 18px;  
+					transition: 0.6s ease;  
+					border-radius: 0 3px 3px 0;  
+				}  
+				.right {  
+					right: 0;  
+					border-radius: 3px 0 0 3px;  
+				}  
+					.left:hover, .right:hover {  
+						background-color: rgba(115, 115, 115, 0.8);  
+					}  
+				.content {  
+					color: #eff5d4;  
+					font-size: 30px;  
+					padding: 8px 12px;  
+					position: absolute;  
+					top: 10px;  
+					width: 100%;  
+					text-align: center;  
+				}  
+				.active {  
+					background-color: #717171;  
+				}  
+				/* Fading animation */  
+				.fade {  
+					-webkit-animation-name: fade;  
+					-webkit-animation-duration: 1.5s;  
+					animation-name: fade;  
+					animation-duration: 1.5s;  
+				}  
+				@-webkit-keyframes fade {  
+					from {  
+						opacity: .4  
+					}  
+					to {  
+						opacity: 1  
+					}  
+				}  
+		  
+				@keyframes fade {  
+					from {  
+						opacity: .4  
+					}  
+					to {  
+						opacity: 1  
+					} 
+
+					
+				}  
+			</style>  
+		</head>  
+		<body>  
+			<div class="slidercontainer">  
+				<div class="showSlide fade">  
+					<img src="4.png" />  
+				</div>  
+				<div class="showSlide fade">  
+					<img src="5.png" />  
+				</div>  
+		  
+				<div class="showSlide fade">  
+					<img src="7.png" />  
+				</div>  
+				<div class="showSlide fade">  
+					<img src="10.png" />   
+				</div>  
+				<!-- Navigation arrows -->  
+				<a class="left" onclick="nextSlide(-1)" style="top:312px; left:39px"><img src="Arrow Left.png"/></a>  
+				<a class="right" onclick="nextSlide(1)" style="top:312px; left:1315px"><img src="Arrow Left.png"/ style="transform: matrix(-1, 0, 0, 1, 0, 0);"></a>  
+			</div>  
+		  
+			<script type="text/javascript">  
+				var slide_index = 1;  
+				displaySlides(slide_index);  
+		  
+				function nextSlide(n) {  
+					displaySlides(slide_index += n);  
+				}  
+		  
+				function currentSlide(n) {  
+					displaySlides(slide_index = n);  
+				}  
+		  
+				function displaySlides(n) {  
+					var i;  
+					var slides = document.getElementsByClassName("showSlide");  
+					if (n > slides.length) { slide_index = 1 }  
+					if (n < 1) { slide_index = slides.length }  
+					for (i = 0; i < slides.length; i++) {  
+						slides[i].style.display = "none";  
+					}  
+					slides[slide_index - 1].style.display = "block";  
+				}  
+			</script>  
+		</body>
+
+		<img src="VirtuLab by DD Icon_White png 1.jpg"
+			 style="position: absolute;
+				width: 183.7px;
+				height: 37.21px;
+				left: 120px;
+				top: 24px;"/>
+		
+		<style>
+			a{
+			color:white;
+		}
+		
+		a:link, a:visited {
+		  background-color: transparent;
+		  color: white;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		}
+
+		</style>
+	
+		<div style="position: absolute;background-color:transparent; box-shadow:transparent;
+				width: 117px;
+				height: 17px;
+				left: 742px;
+				top: 30px;
+				font-family: Roboto;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 12px;
+				line-height: 14px;
+				display: flex;
+				align-items: center;
+				text-align: center;
+				letter-spacing: 0.02em;
+				text-transform: uppercase;
+				color: #FFFFFF;
+				border-radius: 100px;"><a href="">Use Case</a>
+		</div>
+		<div style="position: absolute;
+				width: 79px;
+				height: 17px;
+				left: 828px;
+				top: 31px;
+				font-family: Roboto;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 12px;
+				line-height: 14px;
+				display: flex;
+				align-items: center;
+				text-align: center;
+				letter-spacing: 0.02em;
+				text-transform: uppercase;
+				color: #FFFFFF;
+				border-radius: 100px;"><a href="">Features</a>
+		</div>
+		<div style="position: absolute;
+				width: 65px;
+				height: 17px;
+				left: 922px;
+				top: 32px;
+				font-family: Roboto;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 12px;
+				line-height: 14px;
+				display: flex;
+				align-items: center;
+				text-align: center;
+				letter-spacing: 0.02em;
+				text-transform: uppercase;
+				color: #FFFFFF;
+				border-radius: 100px;"><a href="">faq</a>
+		</div>
+		<div style="position: absolute;
+					width: 83px;
+					height: 17px;
+					left: 984px;
+					top: 32px;
+					font-family: Roboto;
+					font-style: normal;
+					font-weight: 500;
+					font-size: 12px;
+					line-height: 14px;
+					display: flex;
+					align-items: center;
+					text-align: center;
+					letter-spacing: 0.02em;
+					text-transform: uppercase;
+					color: #FFFFFF;
+					border-radius: 100px;"><a href="">contact</a>
+		</div>
+					
+		<button style="position: absolute;width: 115px;height: 40px;left: 1091px;top: 21px;background: #FFFFFF;border-radius: 80px;text-transform: uppercase;"> 
+			<div style="position: absolute;
+					width: 77px;
+					height: 17px;
+					left: 1100px;
+					top: 16px;
+					font-family: Roboto;
+					font-style: normal;
+					font-weight: 500;
+					font-size: 12px;
+					line-height: 14px;
+					display: flex;
+					align-items: center;
+					text-align: center;
+					text-transform: uppercase;
+					color: #242289;
+					border-radius: 100px;">
+			</div>Test Drive
+		</button>
+	
+		<button style="position: absolute;width: 93px;height: 40px;left: 1226px;top: 21px;background: #242289;border-radius: 80px;color: #FFFFFF;text-transform: uppercase;">
+			<div style="position: absolute;
+						width: 77px;
+						height: 17px;
+						left: 34px;
+						top: 9px;
+						font-family: Roboto;
+						font-style: normal;
+						font-weight: 500;
+						font-size: 12px;
+						line-height: 14px;
+						display: flex;
+						align-items: center;
+						text-align: center;
+						text-transform: uppercase;
+						color: #FFFFFF;
+						border-radius: 100px;">
+			</div>buy
+		</button>
+	
+	</div>
+	
+	<!--frame 2-->
+	<div>			
+		<div style="position: absolute;
+				width: 958px;
+				height: 45px;
+				left: 241px;
+				top: 829px;
+				font-family: Roboto;
+				font-style: normal;
+				font-weight: 900;
+				font-size: 50px;
+				line-height: 45px;
+				text-align: center;
+				text-transform: capitalize;
+				color: #FFFFFF;">Telepresence Robots
+		</div>
+					
+		<div style="position: absolute;
+					width: 896px;
+					height: 101px;
+					left: 274px;
+					top: 895px;
+					font-family: Roboto;
+					font-style: normal;
+					font-weight: 300;
+					font-size: 20px;
+					line-height: 30px;
+					text-align: center;
+					letter-spacing: -0.01em;
+					color: #FFFFFF;
+					opacity: 0.8;">
+					<div>Telecommute to anywhere, without actually being there. 
+					<br>Be it to reduce travel, improve conversations or enable live monitoring &mdash; this revolutionary telepresence solution has uses limited only by your imagination.</br></div>
+		</div>
+		<div>
+			<div style="position: absolute;
+						width: 227px;
+						height: 275px;
+						left: 127px;
+						top: 1014px;
+						border: 1px solid rgba(255, 255, 255, 0.6);
+						box-sizing: border-box;
+						filter: drop-shadow(0px 10px 40px rgba(101, 117, 124, 0.1));">
+						<img src="group.png"
+							 style="position: absolute;
+									left: 11%;
+									right: 85.69%;
+									top: 12.73%;
+									bottom: 79.12%;"/>
+			</div>
+			<div style="position: absolute;
+						width: 137px;
+						height: 72px;
+						left: 166px;
+						top: 1131px;
+						font-family: Roboto;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 22px;
+						line-height: 26px;
+						letter-spacing: 0.01em;color: #FFFFFF;">In the Office
+			</div>
+			<a href=""><img src="Union.png" style="position: absolute;width: 23px;height: 8px;left: 166px;top: 1244px;"/></a>
+			
+			<div style="position: absolute;
+						width: 227px;
+						height: 275px;
+						left: 371px;
+						top: 1014px;
+						border: 1px solid rgba(255, 255, 255, 0.6);
+						box-sizing: border-box;
+						filter: drop-shadow(0px 10px 40px rgba(101, 117, 124, 0.1));">
+				<img src="group 2.png"
+					 style="position: absolute;
+							left: 11%;
+							right: 68.75%;
+							top: 12.73%;
+							bottom: 79.16%;"/>
+			</div>
+			<div style="position: absolute;
+						width: 162.92px;
+						height: 89px;
+						left: 392.72px;
+						top: 1131px;
+						font-family: Roboto;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 22px;
+						line-height: 26px;
+						letter-spacing: 0.01em;color: #FFFFFF;">Host Customer Tours
+			</div>
+			<a href=""><img src="Union.png" style="position: absolute;width: 23px;height: 8px;left: 404px;top: 1244px;"/></a>
+			
+			<div style="position: absolute;
+						width: 227px;
+						height: 275px;
+						left: 615px;
+						top: 1014px;
+						border: 1px solid rgba(255, 255, 255, 0.6);
+						box-sizing: border-box;
+						filter: drop-shadow(0px 10px 40px rgba(101, 117, 124, 0.1))">
+				<img src="group 3.png"
+					 style="position: absolute;
+							left: 11%;
+							right: 51.53%;
+							top: 12.73%;
+							bottom: 79.18%;"/>
+			</div>
+			<div style="position: absolute;
+						width: 183px;
+						height: 97px;
+						left: 635px;
+						top: 1131px;
+						top: 1131px;
+						font-family: Roboto;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 22px;
+						line-height: 26px;
+						letter-spacing: 0.01em;color: #FFFFFF;">At Factories, Plants & Warehouses 
+			</div>
+			<a href=""><img src="Union.png" style="position: absolute;width: 23px;height: 8px;left: 646px;top: 1244px;"/></a>
+			
+			<div style="position: absolute;
+						width: 227px;
+						height: 275px;
+						left: 859px;
+						top: 1014px;
+						border: 1px solid rgba(255, 255, 255, 0.6);
+						box-sizing: border-box;
+						filter: drop-shadow(0px 10px 40px rgba(101, 117, 124, 0.1));">
+				<img src="group 4.png"
+					 style="position: absolute;
+							left: 11%;
+							right: 51.53%;
+							top: 12.73%;
+							bottom: 79.18%;"/>
+			</div>
+			<div style="position: absolute;
+						width: 137px;
+						height: 72px;
+						left: 880px;
+						top: 1131px;
+						font-family: Roboto;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 22px;
+						line-height: 26px;
+						letter-spacing: 0.01em;color: #FFFFFF;">Healthcare & Education
+			</div>
+			<a href=""><img src="Union.png" style="position: absolute;width: 23px;height: 8px;left: 886px;top: 1244px;"/></a>
+			
+			<div style="position: absolute;
+						width: 227px;
+						height: 275px;
+						left: 1103px;
+						top: 1014px;
+						border: 1px solid rgba(255, 255, 255, 0.6);
+						box-sizing: border-box;
+						filter: drop-shadow(0px 10px 40px rgba(101, 117, 124, 0.1));">
+				<img src="group 5.png"
+					 style="position: absolute;
+							left: 11%;
+							right: 51.53%;
+							top: 12.73%;
+							bottom: 79.18%;"/>
+			</div>
+			<div style="position: absolute;
+						width: 150px;
+						height: 89px;
+						left: 1123px;
+						top: 1131px;
+						font-family: Roboto;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 22px;
+						line-height: 26px;
+						letter-spacing: 0.01em;color: #FFFFFF;">At Retail & Events
+			</div>
+			<img src="Union.png" style="position: absolute;width: 23px;height: 8px;left: 1130px;top: 1244px;"/>
+		</div>
+		
+		<!--frame 3-->
+		<div style="position: absolute;
+					width: 958px;
+					height: 45px;
+					left: 250px;
+					top: 1370px;
+					font-family: Roboto;
+					font-style: normal;
+					font-weight: 900;
+					font-size: 50px;
+					line-height: 45px;
+					text-align: center;
+					text-transform: capitalize;
+					color: #FFFFFF;">Product Features
+		</div>
+		
+		<div style="position: absolute;
+					width: 1440px;
+					height: 0px;
+					left: 0px;
+					top: 1478px;
+					opacity: 0.4;
+					border: 1px dashed #FFFFFF;"></div>
+			<button style="display: flex;
+					flex-direction: row;
+					padding: 12px 25px;
+					position: absolute;
+					width: 134px;
+					height: 39px;
+					left: 317.5px;
+					top: 1458px;
+					background: #F08310;
+					border-radius: 80px;
+					font-size: 11px;
+					align-items: center;
+					letter-spacing: 0.02em;
+					text-transform: uppercase;
+					color: #FFFFFF;">self driving
+			</button>
+		<button style="display: flex;
+				flex-direction: row;
+				padding: 12px 25px;
+				position: absolute;
+				width: 210px;
+				height: 39px;
+				left: 478.5px;
+				top: 1458px;
+				background: #242289;
+				border: 1px solid #FFFFFF;
+				box-sizing: border-box;
+				border-radius: 80px;
+				font-size: 11px;
+				align-items: center;
+				letter-spacing: 0.02em;
+				text-transform: uppercase;
+				color: #FFFFFF;">click to drive interface
+		</button>
+		<button style="display: flex;
+				flex-direction: row;
+				padding: 12px 25px;
+				position: absolute;
+				width: 180px;
+				height: 39px;
+				left: 714.5px;
+				top: 1458px;
+				background: #242289;
+				border: 1px solid #FFFFFF;
+				box-sizing: border-box;
+				border-radius: 80px;
+				font-size: 11px;
+				align-items: center;
+				letter-spacing: 0.02em;
+				text-transform: uppercase;
+				color: #FFFFFF;">mixed reality video
+		</button>
+		<button style="display: flex;
+				flex-direction: row;
+				padding: 12px 25px;
+				position: absolute;
+				width: 199px;
+				height: 39px;
+				left: 925.5px;
+				top: 1458px;
+				background: #242289;
+				border: 1px solid #FFFFFF;
+				box-sizing: border-box;
+				border-radius: 80px;
+				font-size: 11px;
+				align-items: center;
+				letter-spacing: 0.02em;
+				text-transform: uppercase;
+				color: #FFFFFF;">ultra hd video & audio
+		</button>
+		<img src="01.png"
+			 style="position: absolute;
+					width: 238px;
+					height: 188px;
+					left: 724px;
+					top: 1551px;
+					font-weight: 900;
+					font-size: 250px;
+					line-height: 90px;
+					text-align: center;
+					letter-spacing: -0.03em;"/>
+		<img src="concept 1.png"
+			 style="position: absolute;
+					width: 550.76px;
+					height: 374.31px;
+					left: 152.12px;
+					top: 1539.72px;"/>
+		<div style="position: absolute;
+					width: 257px;
+					height: 72px;
+					left: 782px;
+					top: 1630px;
+					font-family: Roboto;
+					font-style: normal;
+					font-weight: bold;
+					font-size: 36px;
+					line-height: 42px;
+					letter-spacing: 0.01em;
+					color: #FFFFFF;">self driving
+		</div>
+		<div style="position: absolute;
+					width: 462px;
+					height: 201px;
+					left: 754px;
+					top: 1679px;
+					font-family: Roboto;
+					font-style: normal;
+					font-weight: 300;
+					font-size: 17px;
+					line-height: 30px;
+					letter-spacing: -0.01em;
+					color: #FFFFFF;">An array of 3D sensors enables Double 3 to understand its environment, where it’s safe to drive, and how to divert around obstacles to reach the destination.
+		</div>
+		<button style="position: absolute;
+						width: 141px;
+						height: 50px;
+						left: 737px;
+						top: 1790px;
+						background: #FFFFFF;
+						border-radius: 80px;
+						text-align: center;
+						text-transform: uppercase">test drive
+		</button>
+		<button style="position: absolute;
+						width: 212px;
+						height: 50px;
+						left: 902px;
+						top: 1790.5px;
+						background: #FFFFFF;
+						border-radius: 80px;
+						text-align: center;
+						text-transform: uppercase">download spec sheet
+		</button>
+	</div>
+	
+	<!--frame 4-->
+	<div style="position: absolute;
+				width: 1440px;
+				height: 309px;
+				left: 17px;
+				top: 1991px;
+				background: #1D1B6E;
+				opacity: 0.4;">
+	</div>
+		<h1 style="position: absolute;
+					width: 958px;
+					height: 45px;
+					left: 241px;
+					top: 2044px;
+					font-family: Roboto;
+					font-style: normal;
+					font-weight: 900;
+					font-size: 50px;
+					line-height: 45px;
+					text-align: center;
+					text-transform: capitalize;
+					color: #FFFFFF;">Globally Trusted
+		</h1>
+	<h2 style="position: absolute;
+				width: 896px;
+				height: 101px;
+				left: 255px;
+				top: 2111px;
+
+				font-family: Roboto;
+				font-style: normal;
+				font-weight: 300;
+				font-size: 20px;
+				line-height: 30px;
+				/* or 150% */
+
+				text-align: center;
+				letter-spacing: -0.01em;
+
+				color: #FFFFFF;
+
+				opacity: 0.8;">With 12,000+ robots used worldwide, Double is a world leader in telepresence robots.
+	</h2>
+	<img src="download 38.png"
+	style="position: absolute;
+			width: 70px;
+			height: 36px;
+			left: 119px;
+			top: 2189px;
+			opacity: 0.8;"/>
+	<img src="download 37.png"
+	style="position: absolute;
+			width: 167px;
+			height: 42px;
+			left: 286px;
+			top: 2189px;
+			opacity: 0.8;"/>
+	<img src="download 36.png"
+	style="position: absolute;
+			width: 132px;
+			height: 36px;
+			left: 550px;
+			top: 2189px;
+			opacity: 0.8;"/>
+	<img src="download 34.png"
+	style="position: absolute;
+			width: 140px;
+			height: 56px;
+			left: 779px;
+			top: 2180px;
+			opacity: 0.8;"/>
+	<img src="download 35.png"
+	style="position: absolute;
+			width: 236px;
+			height: 47px;
+			left: 1026px;
+			top: 2183px;
+			opacity: 0.8;"/>
+			
+	
+	<!--frame 5-->
+	<div style="position: absolute;
+				width: 1440px;
+				height: 881px;
+				left: 18px;
+				top: 2300px;
+				background: #1D1B6E;">
+	</div>
+	<div style="position: absolute;
+				width: 989.2px;
+				height: 986.64px;
+				left: 507.79px;
+				top: 2132px;
+				background: radial-gradient(50.04% 45.85% at 34.72% 66.23%, rgba(217, 0, 213, 0.7) 0%, rgba(29, 27, 110, 0) 100%);">
+	</div>
+	<h1 style="position: absolute;
+				width: 958px;
+				height: 45px;
+				left: 256px;
+				top: 2381px;
+				font-family: Roboto;
+				font-style: normal;
+				font-weight: 900;
+				font-size: 50px;
+				line-height: 45px;
+				text-align: center;
+				text-transform: capitalize;
+				color: #FFFFFF;">One Robot. Countless Applications
+	</h1>
+	<div style="position: absolute;
+				width: 1440px;
+				height: 0px;
+				left: 15px;
+				top: 2529px;
+				opacity: 0.4;
+				border: 1px dashed #FFFFFF;">
+	</div>
+	<button style="display: flex;
+					flex-direction: row;
+					padding: 12px 25px;
+					position: absolute;
+					width: 91px;
+					height: 39px;
+					left: 287px;
+					top: 2509px;
+					background: #F08310;
+					border-radius: 100px;
+					align-items: center;
+					font-size:11px;
+					letter-spacing: 0.02em;
+					text-transform: uppercase;
+					color: #FFFFFF;">office
+	</button>
+	<button style="display: flex;
+					flex-direction: row;
+					padding: 12px 25px;
+					position: absolute;
+					width: 91px;
+					height: 39px;
+					left: 413px;
+					top: 2509px;
+					background: #242289;
+					border: 1px solid #FFFFFF;
+					box-sizing: border-box;
+					border-radius: 80px;
+					align-items: center;
+					font-size:11px;
+					letter-spacing: 0.02em;
+					text-transform: uppercase;
+					color: #FFFFFF;">retail</button>
+	<button style="display: flex;
+					flex-direction: row;
+					padding: 12px 25px;
+					position: absolute;
+					width: 124px;
+					height: 39px;
+					left: 539px;
+					top: 2509px;
+					background: #242289;
+					border: 1px solid #FFFFFF;
+					box-sizing: border-box;
+					border-radius: 80px;
+					align-items: center;
+					font-size:11px;
+					letter-spacing: 0.02em;
+					text-transform: uppercase;
+					color: #FFFFFF;">wirehouse</button>
+	<button style="display: flex;
+					flex-direction: row;
+					padding: 12px 25px;
+					position: absolute;
+					width: 103px;
+					height: 39px;
+					left: 698px;
+					top: 2509px;
+					background: #242289;
+					border: 1px solid #FFFFFF;
+					box-sizing: border-box;
+					border-radius: 80px;
+					align-items: center;
+					font-size:11px;
+					letter-spacing: 0.02em;
+					text-transform: uppercase;
+					color: #FFFFFF;">medical</button>
+	<button style="display: flex;
+					flex-direction: row;
+					padding: 12px 25px;
+					position: absolute;
+					width: 118px;
+					height: 39px;
+					left: 836px;
+					top: 2509px;
+					background: #242289;
+					border: 1px solid #FFFFFF;
+					box-sizing: border-box;
+					border-radius: 80px;
+					align-items: center;
+					font-size:11px;
+					letter-spacing: 0.02em;
+					text-transform: uppercase;
+					color: #FFFFFF;">education</button>
+	<button style="display: flex;
+					flex-direction: row;
+					padding: 12px 25px;
+					position: absolute;
+					width: 184px;
+					height: 39px;
+					left: 989px;
+					top: 2509px;
+					background: #242289;
+					border: 1px solid #FFFFFF;
+					box-sizing: border-box;
+					border-radius: 80px;
+					align-items: center;
+					font-size:11px;
+					letter-spacing: 0.02em;
+					text-transform: uppercase;
+					color: #FFFFFF;">video conferencing</button>
+
+	<img src="video 1.png"
+		style="position: absolute;
+				width: 980.83px;
+				height: 555.77px;
+				left: 238.17px;
+				top: 2590.23px;"/>
+	<img src="Group 1042.png"
+		 style="position: absolute;
+				width: 80px;
+				height: 80px;
+				left: 680px;
+				top: 2839px;"/>
+	<img src="Arrow Left.png"
+		style="position: absolute;
+				width: 52px;
+				height: 52px;
+				left: 151.5px;
+				top: 2839px;"/>
+	<img src="Arrow Left.png"
+		style="position: absolute;
+				width: 52px;
+				height: 52px;
+				left: 1253.5px;
+				top: 2839px; transform: matrix(-1, 0, 0, 1, 0, 0);"/>
+	
+	
+	<!--start frame 6-->
+	<div style="position: absolute; 
+				width: 1440px;
+				height: 829px;
+				left: 21px;
+				top: 3687px;
+				background: #1D1B6E;">
+				
+		<div style="position: absolute;
+				width: 958px;
+				height: 45px;
+				left:231px;
+				top:69px;
+				font-family: Roboto;
+				font-style: normal;
+				font-weight: 900;
+				font-size: 50px;
+				line-height: 45px;
+				text-align: center;
+				text-transform: capitalize;
+				color: #FFFFFF;">fAQ’s
+	    </div>
+		<img src="groupdots.png" 
+			 style="position: absolute;
+					width: 40%;
+					left: 60.76%;
+					right: 7.08%;
+					top: 10.89%;
+					bottom: 77.73%;"/>
+		
+		<div style="position: absolute; top:170px; width: 1057px; left:271px;">
+			<head>
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<style>
+					.accordion {
+					  background-color: #1D1B6E;
+					  color: #FFFFFF;
+					  cursor: pointer;
+					  padding: 20px;
+					  width: 89%;
+					  border: none;
+					  text-align: left;
+					  outline: none;
+					  font-size: 15px;
+					  transition: 0.4s;
+					}
+
+					.active, .accordion:hover {
+					  background-color: #1D1B6E;
+					  color: white;
+					}
+
+					.panel {
+					  padding: 0 18px;
+					  display: none;
+					  background-color: #242289;
+					  overflow: hidden;
+					}
+				</style>
+			</head>
+			<body>
+				<button class="accordion" style="font-size: 20px;"><img src="+.png" style="width:1.5%"/> How does the Double actually work?</button>
+				<div class="panel">
+				  <p style="color:white;font-size: 17px;line-height:1.5">
+					Double 3 is a cloud- and app-based product. This means that you use the robot through a PC, Mac, iPad, iPhone or Android. You navigate the robot by clicking where you want the robot to go. The built-in sensors allow the robot to avoid obstacles automatically. The robot has two different speeds, can adjust its height, park, take pictures, screen share or display any site on the screen.				  </p>
+				  </p>
+				 </div>
+
+				<button class="accordion" style="font-size: 20px;"><img src="+.png" style="width:1.5%"/> What devices can I use Double 3 with?</button>
+				<div class="panel">
+				  <p style="color:white;font-size: 17px;line-height:1.5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+
+				<button class="accordion" style="font-size: 20px;"><img src="+.png" style="width:1.5%"/> Can several people connect to a Double 3 at the same time?</button>
+				<div class="panel">
+				  <p style="color:white;font-size: 17px;line-height:1.5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				
+				<button class="accordion" style="font-size: 20px;"><img src="+.png" style="width:1.5%"/> Is Double 3 secure and encrypted?</button>
+				<div class="panel">
+				  <p style="color:white;font-size: 17px;line-height:1.5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				
+				<button class="accordion" style="font-size: 20px;"><img src="+.png" style="width:1.5%"/> Do you offer a guarantee?</button>
+				<div class="panel">
+				  <p style="color:white;font-size: 17px;line-height:1.5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				
+				<button class="accordion" style="font-size: 20px;"><img src="+.png" style="width:1.5%"/> What is included in my purchase of Double 3?</button>
+				<div class="panel">
+				  <p style="color:white;font-size: 17px;line-height:1.5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+
+				<script>
+					var acc = document.getElementsByClassName("accordion");
+					var i;
+
+					for (i = 0; i < acc.length; i++) {
+					  acc[i].addEventListener("click", function() {
+						this.classList.toggle("active");
+						var panel = this.nextElementSibling;
+						if (panel.style.display === "block") {
+						  panel.style.display = "none";
+						} else {
+						  panel.style.display = "block";
+						}
+					  });
+					}
+				</script>
+			</body>
+		</div>	
+	</div>
+	<!--end frame 6-->
+	
+	
+	<div style="position: absolute;
+					width: 958px;
+					height: 45px;
+					left: 241px;
+					top: 3260.45px;
+					font-family: Roboto;
+					font-style: normal;
+					font-weight: 900;
+					font-size: 50px;
+					line-height: 45px;
+					text-align: center;
+					text-transform: capitalize;
+					color: #FFFFFF;">Users Speak
+	</div>
+	<img src="vector.png"
+		 style="position: absolute;
+				width: 383.75px;
+				height: 254.14px;
+				left: 124.12px;
+				top: 3317.28px;"/>
+	<div style="position: absolute;
+				width: 856px;
+				height: 257.57px;
+				left: 292px;
+				top: 3347.43px;
+				font-family: Roboto;
+				font-style: italic;
+				font-weight: 300;
+				font-size: 24px;
+				line-height: 149.4%;
+				text-align: center;
+				letter-spacing: 0.01em;
+				color: #FFFFFF;">
+		Double opens up the possibilities of how we interact. You can go from room to room or person to person and interact in a way that you can't do through Skype or any other wall-based video conference. Double is another example of what the future is going to bring us.
+	</div>
+	<div style="position: absolute;
+				width: 263px;
+				height: 72px;
+				left: 588px;
+				top: 3527px;
+				font-family: Roboto;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 17px;
+				line-height: 141.4%;
+				text-align: center;
+				letter-spacing: 0.01em;
+				text-transform: uppercase;
+				color: #FFFFFF;">Ben Pring
+				<br>IT Futurist and Thought Leader, Cognizant Digital Works</br> 
+	</div>
+	
+	<!--frame 8-->
+	<div>
+		<div style="position: absolute;
+				width: 1448px;
+				height: 307.01px;
+				left: 17.33px;
+				top: 5027.99px;
+				background: #1D1B6E;">
+		</div>	
+		<div style="position: absolute;width: 313.5px;height: 17px;left: 850px;top: 5191.47px;font-family: Roboto;font-style: normal;font-weight: 500;font-size: 12px;line-height: 14px;display: flex;align-items: center;text-align: center;text-transform: uppercase;color: #FFFFFF;border-radius: 100px;">
+			Hotline: +91 9769914770 
+		</div>
+		<div style="position: absolute;width: 313.5px;height: 17px;left: 1062px;top: 5191.47px;font-family: Roboto;font-style: normal;font-weight: 500;font-size: 12px;line-height: 14px;display: flex;align-items: center;text-align: center;text-transform: uppercase;color: #FFFFFF;border-radius: 100px;">  
+			email: virtulab@designdesk.in
+		</div>
+		<div style="position: absolute;width: 1534px;height: 0px;left: -80px;top: 5245px;opacity: 0.4;border: 1px dashed #FFFFFF;"></div>
+		<div style="position: absolute;
+					width: 627px;
+					height: 17px;
+					left: 126px;
+					top: 5279px;
+					font-family: Roboto;
+					font-style: normal;
+					font-weight: 500;
+					font-size: 12px;
+					line-height: 14px;
+					display: flex;
+					align-items: center;
+					text-transform: uppercase;
+					color: #FFFFFF;
+					border-radius: 100px;">
+					© 2020 VirtuLab by JMD Design Desk Pvt Ltd (in collaboration with Artiligent Solutions)
+		
+	</div>
+		<img src="VirtuLab by DD Icon_White png 1.jpg"
+			style="position: absolute;width: 128.5px;height: 26.07px;left: 123.75px;top: 5186.94px;mix-blend-mode: luminosity;"/>
+		<div style="position: absolute;
+				width: 87px;
+				height: 17px;
+				left: 293px;
+				top: 5191.47px;color:white">use case
+		</div>
+		<div style="position: absolute;
+					width: 79px;
+					height: 17px;
+					left: 395.17px;
+					top: 5191.47px;color:white">features
+		</div>
+		<div style="position: absolute;
+					width: 65px;
+					height: 17px;
+					left: 489.33px;
+					top: 5191.47px;color:white">faq
+		</div>
+		<div style="position: absolute;
+					width: 83px;
+					height: 17px;
+					left: 569.5px;
+					top: 5191.47px;color:white">contact
+		</div>
+	</div>
+	
+	<!--form frame 7-->
+	<div style="position: absolute;
+				width: 1201px;
+				height: 551px;
+				left: 143px;
+				top: 4591px;
+				background: linear-gradient(88.4deg, #121058 51.36%, #69018D 106.01%);">
+		<img src="Ellipse 190.png"
+			style="position: absolute;
+				width: 10%;
+				left: 7.51%;
+				right: 77.5%;
+				top: 83.37%;
+				bottom: 84.92%;"/>
+		<img src="groupdots.png" 
+			 style="position: absolute;
+					width: 25%;
+					left: -0.76%;
+					right: 7.08%;
+					top: 75.89%;
+					bottom: 77.73%;"/>
+	</div>
+				
+	<img src="download 40.png"
+	style="position: absolute;
+			width: 223px;
+			height: 502px;
+			left: 148px;
+			top: 4605px;"/>
+	<div style="position: absolute;
+				width: 958px;
+				height: 45px;
+				left: 243px;
+				top: 4653px;
+				font-family: Roboto;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 40px;
+				line-height: 45px;
+				text-align: center;
+				text-transform: capitalize;
+				color: #FFFFFF;">The Future is Ready. Are You?
+				
+		
+	</div>
+	<form>
+		<input type="text" style="position: absolute;width: 137px;height: 31px;left: 366px;top: 4731px; background:none; border:none" placeholder="First Name"/>
+			<div style="position: absolute;width: 312px;height: 1px;left: 367px;top: 4771px;background-color: #FFFFFF"></div>
+		<input type="text" style="position: absolute;width: 137px;height: 31px;left: 760px;top: 4731px;background:none; border:none" placeholder="Last Name"/>
+			<div style="position: absolute;width: 312px;height: 1px;left: 761px;top: 4771px;background-color: #FFFFFF"></div>
+		<input type="text" style="position: absolute;width: 137px;height: 31px;left: 367px;top: 4804px;background:none; border:none" placeholder="Email Address"/>
+			<div style="position: absolute;width: 312px;height: 1px;left: 368px;top: 4844px;background-color: #FFFFFF"></div>
+		<input type="text" style="position: absolute;width: 137px;height: 31px;left: 761px;top: 4804px;background:none; border:none" placeholder="Phone Number"/>
+			<div style="position: absolute;width: 312px;height: 1px;left: 762px;top: 4844px;background-color: #FFFFFF"></div>
+		<input type="text" style="position: absolute;width: 137px;height: 31px;left: 367px;top: 4876px;background:none; border:none" placeholder="Comments"/>
+			<div style="position: absolute;width: 706px;height: 1px;left: 367px;top: 4934px;;background-color: #FFFFFF"></div>
+		<input type="radio" style="position: absolute;width: 19px;height: 19px;left: 485px;top: 4960px;background: #FFFFFF;border: 1px solid #333333;box-sizing: border-box;"/ >
+			<label for="test drive" style="position: absolute;width: 78px;height: 17px;left: 514px;top: 4960px;font-size: 17px;line-height: 25px;color: #FFFFFF;">Test Drive</label>
+		<input type="radio" style="position: absolute;width: 19px;height: 19px;left: 641px;top: 4960px;border: 1px solid #FFFFFF;box-sizing: border-box;"/>
+			<label for="buy now" style="position: absolute;width: 72px;height: 17px;left: 672px;top: 4960px;font-size: 17px;line-height: 25px;color: #FFFFFF;">Buy Now</label>
+		<input type="radio" style="position: absolute;width: 19px;height: 19px;left: 787px;top: 4960px;border: 1px solid #FFFFFF;box-sizing: border-box;" />
+			<label for="request call" style="position: absolute;width: 135px;height: 18px;left: 821px;top: 4959px;font-size: 17px;line-height: 25px;color: #FFFFFF;">Request Callback</label>
+		<button type="submit" style="position: absolute;width: 140px;height: 50px;left: 652px;top: 5023px;background: #FFFFFF;border-radius: 80px;color:none">Submit</button>
+	</form>
+	</body>
+</html>
